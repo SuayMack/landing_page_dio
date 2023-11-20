@@ -1,10 +1,10 @@
 # Landing-Page
 
-Projeto Criando sua Primeira Landing Page com HTML e CSS referente ao Bootcamp 
-## *Potência Tech iFood - Desenvolvimento de Jogos*
-, é um projeto para recriar o layout que foi disponibilizado pela DIO em um link do figma.
+Projeto Criando sua Primeira Landing Page com HTML e CSS referente ao Bootcamp *Potência Tech iFood - Desenvolvimento de Jogos*, é um projeto para recriar o layout que foi disponibilizado pela DIO em um link do figma.
 
 O projeto foi desenvolvido do zero com base no layout do figma.
+
+- [Link do projeto](https://suaymack.github.io/landing_page_dio/)
 
 ## Referência
 
