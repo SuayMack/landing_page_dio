@@ -1,0 +1,219 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+  overflow-x: hidden;
+}
+
+body {
+  background: #000;
+  flex-shrink: 0;
+
+}
+
+a, button {
+  text-decoration: none;
+  color: #33A8DB;
+  transition: 1s ease;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+a:hover {
+  font-size: x-large;
+  cursor: pointer;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  border-bottom: 1px solid #33A8DD;
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(51, 168, 219, .2) 50%, rgba(5, 15, 20, 1) 100%), url('../img/background_header.png');
+  background-color: rgb(0, 0, 0);
+  background-repeat: repeat-x;
+}
+
+header div {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  max-width: 510px;
+  padding: 82px 0 24px;
+}
+
+header div h1 {
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  background: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+header div p {
+  color: #FFF;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+header button {
+  padding: 19px 91px;
+  background-color: transparent;
+  border: 2px solid #3BA1CD;
+  color: #31A8DD;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  letter-spacing: 3.36px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  padding: 32px 0;
+}
+
+main section.what-you-will-learn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  max-width: 792px;
+  height: 100vh;
+  color: #fff;
+}
+
+main section.what-you-will-learn h2 {
+  color: #33A8DB;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 6.08px;
+}
+
+main section.what-you-will-learn p {
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+main section.what-you-will-learn button {
+  display: flex;
+  width: 535px;
+  padding: 16px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-size: 16px;
+  color: #FFF;
+  border-radius: 57px;
+  border: 1px solid #33A8DB;
+  background: #252525;
+  box-shadow: -2px 6px 4px 0px rgba(0, 0, 0, 0.40) inset;
+}
+
+main section.what-you-will-learn button span {
+  color: #33A8DB;
+}
+
+main section.change-world {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 363px;
+  flex-shrink: 0;
+  background-image: url('../img/thisisengineering-raeng-8hgmG03spF4-unsplash 1.png');
+  background-attachment: fixed;
+  /* Torna a imagem de fundo fixa */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 20% 50%;
+  /* Ajusta a posição à esquerda (10%) e ao centro (50%) */
+  border-top: 1px solid #33A8DB;
+  border-right: 1px solid #33A8DB;
+  border-bottom: 1px solid #33A8DB;
+}
+
+main section.change-world p {
+  margin-left: 5em;
+  max-width: 244px;
+  text-align: center;
+  color: #FFF;
+  text-shadow: 3px 2px 0px #33A8DB;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+main section.evolution {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  padding: 91px 30px;
+}
+
+main section.evolution h2 {
+  text-align: center;
+  color: #33A8DB;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 6.08px;
+}
+
+main section.evolution p {
+  color: #FFF;
+  max-width: 792px;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  height: 170px;
+  border-top: 1px solid #33A8DB;
+  background: linear-gradient(180deg, rgba(51, 168, 219, 0.00) 0%, rgba(51, 168, 219, 0.20) 99.99%, rgba(51, 168, 219, 0.20) 100%);
+}
+
+footer img {
+  width: 310px;
+  height: 44px;
+}
+
+footer p, footer span {
+  color: #FFF;
+}
+
+footer span {
+  font-size: 12px;
+}
