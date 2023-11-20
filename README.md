@@ -13,7 +13,7 @@ O projeto foi desenvolvido do zero com base no layout do figma.
  - [W3SHOOLS](https://www.w3schools.com/)
  - [README.SO](https://readme.so/pt)
 
-## Autores
+## Autor
 
 - [@priscilacs](https://github.com/SuayMack?tab=repositories)
 
